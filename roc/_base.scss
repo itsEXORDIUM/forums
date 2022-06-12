@@ -1,0 +1,8 @@
+angel {color:var(--co2); font-weight:bold;}
+wraith {display:block; margin:0 auto;}
+blabla {display:inline; font-weight:bold;}
+blabla::before {content:'«';}
+blabla::after {content:'»';}
+blabla.angel {color:var(--co2);}
+ul, ul li {list-style-type:none; padding:0; margin:0;}
+credit {display:block; opacity:0.2; font-size:8px; text-transform:uppercase; text-align:right; letter-spacing:0.2em; font-weight:bold;}

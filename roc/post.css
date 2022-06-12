@@ -1,0 +1,132 @@
+@charset "UTF-8";
+angel {
+  color: var(--co2);
+  font-weight: bold;
+}
+
+wraith {
+  display: block;
+  margin: 0 auto;
+}
+
+blabla {
+  display: inline;
+  font-weight: bold;
+}
+
+blabla::before {
+  content: '«';
+}
+
+blabla::after {
+  content: '»';
+}
+
+blabla.angel {
+  color: var(--co2);
+}
+
+ul, ul li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+credit {
+  display: block;
+  opacity: 0.2;
+  font-size: 8px;
+  text-transform: uppercase;
+  text-align: right;
+  letter-spacing: 0.2em;
+  font-weight: bold;
+}
+
+wraith#rep_one {
+  width: 450px;
+  position: relative;
+  padding: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+wraith#rep_one::before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-image: url("https://acegif.com/wp-content/gifs/starfall-gif-57.gif");
+  mix-blend-mode: lighten;
+}
+
+wraith#rep_one .part_top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+wraith#rep_one .part_top .img_container {
+  width: calc(75px * 2 + 5px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: var(--color-bg);
+  margin-bottom: 10px;
+}
+
+wraith#rep_one .part_top .img_container img {
+  width: 75px;
+  height: 75px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 10px;
+  border: 1px solid var(--tx4);
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  margin-right: 5px;
+  opacity: 0.6;
+}
+
+wraith#rep_one .part_top .img_container img:last-child {
+  margin: 0;
+}
+
+wraith#rep_one .part_top .text_container {
+  padding: 5px 10px;
+}
+
+wraith#rep_one .part_top .text_container .title, wraith#rep_one .part_top .text_container .title * {
+  font-size: 24px;
+  text-align: left;
+}
+
+wraith#rep_one .part_top .text_container ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+}
+
+wraith#rep_one .part_top .text_container .tags li {
+  margin-right: 5px;
+}
+
+wraith#rep_one .part_top .text_container .tags a {
+  color: var(--noir);
+  font-size: 7px;
+  line-height: 1;
+}
+
+wraith#rep_one blabla {
+  display: inline-block;
+  border-left: 3px solid var(--co2);
+  padding: 5px 5px 5px 25px;
+}
+
+wraith#rep_one y6 {
+  color: var(--txt);
+}
+/*# sourceMappingURL=post.css.map */
